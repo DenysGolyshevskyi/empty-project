@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D2853D5694E2081C7385BB94D32BE0 /* LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EA9DBE964E7A52CE1547ED51A4F028D9 /* LGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09779AA94A149B2238C4706A9BB402E8 /* UIImage+LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C03F7D54E21FDAEADB811536F24DF2F /* UIImage+LGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B84C4476C1E79D3623894519437696D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		0C217D8A748598105EC92EBF024ECEAE /* DejalActivityView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E3DAB65C36B3828A2CE419FEADDFDA /* DejalActivityView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C2CAEC00B9388B271EE9E44620B8B80 /* Pods-empty-project-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24C6C9189A102DF18B84DBEB18BB5A75 /* Pods-empty-project-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FA80C9B676F894C60FC56921C4BE2C1 /* UIView+LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 41BD8E69B6CB3701652FC3F36F0BF83F /* UIView+LGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A8F66F8021F89070B960C41EFF237EB /* UIColor+LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7363E6AA1A2A49F0CB3B2A008174947E /* UIColor+LGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		219DA8222A52FC3D31B6043DFAB38CFD /* LGHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E6128D47DF3A9ECB0AEB1567747C05 /* LGHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28788F63240DF0FD2F7760BC2D62A98E /* UILabel+LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 54380247E562C57BCA10A7C6D4DE97D9 /* UILabel+LGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B10F50ABFBEDD9DAC3D74B02923C72D /* UIScrollView+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0BA4FE7D76F7B22F1C5E201D8C4CE3 /* UIScrollView+LGHelper.m */; };
+		3E056F64CEC57F0C7394F7E604B12C29 /* DejalActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = B50EFEB14B971BD771D43B5EBDB56A60 /* DejalActivityView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C78CBA46AC9190F178EF390729CC073 /* LGHelper+UI.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D65674BB642D1799E8DA6E1BB16A36 /* LGHelper+UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		539A35F9FFED141A35A9FE355B0AA477 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0D42D71BFC0B6433216C73E79EFDE5 /* DejalActivityView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		53BCD4BA7C87B9BD9C150A0073F5416E /* Pods-empty-project-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E325B8C8AFBE83942B1381959DDFC873 /* Pods-empty-project-dummy.m */; };
+		58CF7136B3AB192A993A9C1D41C7E712 /* NSMutableString+LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A41BE40E01A64538A09EAF5278875A /* NSMutableString+LGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		598FD6D9AC9502B81E5AECD5BFEF771E /* NSDate+LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A691AB4439CB08CA904234E5B7A298D3 /* NSDate+LGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60824AC6AD4535949EECE095CA2FF9FC /* UIColor+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 66030610C1AE3CF7A231548D237A7DBD /* UIColor+LGHelper.m */; };
+		60C91150D97A789B9A30978149DBC647 /* UIScrollView+LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E21528E6E1950F051241FB0666397ABC /* UIScrollView+LGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		671EF24B054A744EF4E89D41B70D0B50 /* UIImage+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D532AAFBF1C07146F114C3EACC04112D /* UIImage+LGHelper.m */; };
+		67DA852FFB26B7731E7E0D746762A68D /* UILabel+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 694AE0CB37F0FBD7AA829D3DE77802C8 /* UILabel+LGHelper.m */; };
+		7E6D96B9F62D706097FE42D860789E18 /* NSDictionary+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDBD598FA025211929BE395B26CC96D /* NSDictionary+LGHelper.m */; };
+		8C9A580F66D089780CFC00420075A443 /* NSMutableString+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DDECDBAEDA1D5BC7DC2BA6B8DED98C9F /* NSMutableString+LGHelper.m */; };
+		8E92B0768293793C6DB01A9FC82A97B8 /* LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 02865C3DE3C133992C9D84062F5D8EC0 /* LGHelper.m */; };
+		910F666A4AE7845BEF40DB2E695CEE42 /* UIView+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E47F9F9B841F4624430CD4F9D9A7AA /* UIView+LGHelper.m */; };
+		91769CA707FE6E1A1939BF8F9FB9A027 /* NSData+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 70611D86C00666DFB173C0D2E896FA58 /* NSData+LGHelper.m */; };
+		95043CDA1534A588E519D3708C6368A1 /* NSDictionary+LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EA288A9CD3D4898DDC695D428556A5BF /* NSDictionary+LGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CCDB93822DAE8A6AAC216AAE45668AF /* LGHelper+NS.h in Headers */ = {isa = PBXBuildFile; fileRef = B78C47E7673BFDE4CBD09742EC0F375F /* LGHelper+NS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A44C9DFBAD67AF46E28A3BDDE23E66D4 /* DejalActivityView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97ABAA3879F2E5AB13FB55437C388366 /* DejalActivityView-dummy.m */; };
+		B6C243AD750968119A77DF949200CBE4 /* LGHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64763EACBE968C68B2DB9EF40C20CB14 /* LGHelper-dummy.m */; };
+		C15060834F32FD73B2F7FE2CDD9E0E23 /* NSArray+LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F32986B4E77FA6275400F52891C29144 /* NSArray+LGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1A0A7165DF8770DC4A00C67C6E3C2D3 /* NSData+LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD90F4B48ABAF8AC59F952A5CBC9B8D /* NSData+LGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDC0644A4A39C0702C2FF1F3F8D7CF8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E1108D8B7B7DB9F06115389F56044C50 /* NSString+LGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CE52D668FD7635E132AA62627E6DE7B1 /* NSString+LGHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED1C0BE000508863039E4F115E08D257 /* NSDate+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF31F8C32FA182563D5E46EA1CB246A /* NSDate+LGHelper.m */; };
+		F475EDD37D62E9279B1BDD9C8BF3E5D5 /* NSArray+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 729F27888360142C5A106485FEED42C5 /* NSArray+LGHelper.m */; };
+		F83EB7D0A520A5829B3379D71AB7C9B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		F95C00F0F7E79E159E5276EC8BC87E35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		F99CB06B0DE4CB782FACA10B9C6D97EF /* NSString+LGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 17172459C6FD338EF5286AEB683DF594 /* NSString+LGHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20BE68788C0ABDABF1C69A1A7FE1B635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 471BCBFEC7A0E22C2C0FB058F37A89CD;
+			remoteInfo = LGHelper;
+		};
+		6083A2C759ADF20360AF9CF35EAC15B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FA99AE930DCF98A9DE5E7ABD4D7D0A2;
+			remoteInfo = DejalActivityView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02865C3DE3C133992C9D84062F5D8EC0 /* LGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGHelper.m; path = LGHelper/LGHelper.m; sourceTree = "<group>"; };
+		0DF31F8C32FA182563D5E46EA1CB246A /* NSDate+LGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+LGHelper.m"; path = "LGHelper/LGHelper+NS/NSDate+LGHelper.m"; sourceTree = "<group>"; };
+		0E0BA4FE7D76F7B22F1C5E201D8C4CE3 /* UIScrollView+LGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+LGHelper.m"; path = "LGHelper/LGHelper+UI/UIScrollView+LGHelper.m"; sourceTree = "<group>"; };
+		17172459C6FD338EF5286AEB683DF594 /* NSString+LGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LGHelper.m"; path = "LGHelper/LGHelper+NS/NSString+LGHelper.m"; sourceTree = "<group>"; };
+		219772CBFD41C8703A7C63CDC91721A6 /* LGHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LGHelper.modulemap; sourceTree = "<group>"; };
+		24C6C9189A102DF18B84DBEB18BB5A75 /* Pods-empty-project-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-empty-project-umbrella.h"; sourceTree = "<group>"; };
+		276978B72C275887EB2F731D6211BF16 /* Pods-empty-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-empty-project.debug.xcconfig"; sourceTree = "<group>"; };
+		30E6128D47DF3A9ECB0AEB1567747C05 /* LGHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGHelper-umbrella.h"; sourceTree = "<group>"; };
+		36A41BE40E01A64538A09EAF5278875A /* NSMutableString+LGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableString+LGHelper.h"; path = "LGHelper/LGHelper+NS/NSMutableString+LGHelper.h"; sourceTree = "<group>"; };
+		41BD8E69B6CB3701652FC3F36F0BF83F /* UIView+LGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LGHelper.h"; path = "LGHelper/LGHelper+UI/UIView+LGHelper.h"; sourceTree = "<group>"; };
+		4C17B500D8E631B223F073F66D3178E0 /* LGHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGHelper.framework; path = LGHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54380247E562C57BCA10A7C6D4DE97D9 /* UILabel+LGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+LGHelper.h"; path = "LGHelper/LGHelper+UI/UILabel+LGHelper.h"; sourceTree = "<group>"; };
+		5788A555285976899023030F9493CC25 /* LGHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGHelper-prefix.pch"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		64763EACBE968C68B2DB9EF40C20CB14 /* LGHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGHelper-dummy.m"; sourceTree = "<group>"; };
+		66030610C1AE3CF7A231548D237A7DBD /* UIColor+LGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LGHelper.m"; path = "LGHelper/LGHelper+UI/UIColor+LGHelper.m"; sourceTree = "<group>"; };
+		694AE0CB37F0FBD7AA829D3DE77802C8 /* UILabel+LGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+LGHelper.m"; path = "LGHelper/LGHelper+UI/UILabel+LGHelper.m"; sourceTree = "<group>"; };
+		70611D86C00666DFB173C0D2E896FA58 /* NSData+LGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+LGHelper.m"; path = "LGHelper/LGHelper+NS/NSData+LGHelper.m"; sourceTree = "<group>"; };
+		7156AF5C7CDBB09341E5E1815B2EAB50 /* Pods-empty-project-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-empty-project-acknowledgements.markdown"; sourceTree = "<group>"; };
+		729F27888360142C5A106485FEED42C5 /* NSArray+LGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LGHelper.m"; path = "LGHelper/LGHelper+NS/NSArray+LGHelper.m"; sourceTree = "<group>"; };
+		7363E6AA1A2A49F0CB3B2A008174947E /* UIColor+LGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+LGHelper.h"; path = "LGHelper/LGHelper+UI/UIColor+LGHelper.h"; sourceTree = "<group>"; };
+		7B4ACBEB12018FBDAD9723894DBF5BE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		887334FA5FCBCA6C32C1EA20C667FF78 /* Pods_empty_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_empty_project.framework; path = "Pods-empty-project.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E3DAB65C36B3828A2CE419FEADDFDA /* DejalActivityView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DejalActivityView-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96C89E7ACB9DCEA9992CF35F859E2BB8 /* Pods-empty-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-empty-project.release.xcconfig"; sourceTree = "<group>"; };
+		97ABAA3879F2E5AB13FB55437C388366 /* DejalActivityView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DejalActivityView-dummy.m"; sourceTree = "<group>"; };
+		98052153A35C8B1FEB52F25B7FECE05D /* DejalActivityView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DejalActivityView.modulemap; sourceTree = "<group>"; };
+		9BFC885BCE6EAFDF9A97EED0047067A2 /* Pods-empty-project-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-empty-project-resources.sh"; sourceTree = "<group>"; };
+		9C03F7D54E21FDAEADB811536F24DF2F /* UIImage+LGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+LGHelper.h"; path = "LGHelper/LGHelper+UI/UIImage+LGHelper.h"; sourceTree = "<group>"; };
+		9EDBD598FA025211929BE395B26CC96D /* NSDictionary+LGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+LGHelper.m"; path = "LGHelper/LGHelper+NS/NSDictionary+LGHelper.m"; sourceTree = "<group>"; };
+		A691AB4439CB08CA904234E5B7A298D3 /* NSDate+LGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+LGHelper.h"; path = "LGHelper/LGHelper+NS/NSDate+LGHelper.h"; sourceTree = "<group>"; };
+		AB0D42D71BFC0B6433216C73E79EFDE5 /* DejalActivityView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
+		AC04B1063BD57AE1EDE6490A4F959E3E /* Pods-empty-project.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-empty-project.modulemap"; sourceTree = "<group>"; };
+		B50EFEB14B971BD771D43B5EBDB56A60 /* DejalActivityView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
+		B6E47F9F9B841F4624430CD4F9D9A7AA /* UIView+LGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LGHelper.m"; path = "LGHelper/LGHelper+UI/UIView+LGHelper.m"; sourceTree = "<group>"; };
+		B78C47E7673BFDE4CBD09742EC0F375F /* LGHelper+NS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGHelper+NS.h"; path = "LGHelper/LGHelper+NS/LGHelper+NS.h"; sourceTree = "<group>"; };
+		B7935B1EF3784D843B967626007A7179 /* DejalActivityView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DejalActivityView.xcconfig; sourceTree = "<group>"; };
+		B8D65674BB642D1799E8DA6E1BB16A36 /* LGHelper+UI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LGHelper+UI.h"; path = "LGHelper/LGHelper+UI/LGHelper+UI.h"; sourceTree = "<group>"; };
+		C0C9B57C650FE7796852FB028EDE4729 /* Pods-empty-project-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-empty-project-frameworks.sh"; sourceTree = "<group>"; };
+		C0EC84CAD37C7692D617788C456C8C2C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDD90F4B48ABAF8AC59F952A5CBC9B8D /* NSData+LGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+LGHelper.h"; path = "LGHelper/LGHelper+NS/NSData+LGHelper.h"; sourceTree = "<group>"; };
+		CE52D668FD7635E132AA62627E6DE7B1 /* NSString+LGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LGHelper.h"; path = "LGHelper/LGHelper+NS/NSString+LGHelper.h"; sourceTree = "<group>"; };
+		CFF1865443DA0E2B0C85E2281F7ABA98 /* DejalActivityView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DejalActivityView-prefix.pch"; sourceTree = "<group>"; };
+		D532AAFBF1C07146F114C3EACC04112D /* UIImage+LGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+LGHelper.m"; path = "LGHelper/LGHelper+UI/UIImage+LGHelper.m"; sourceTree = "<group>"; };
+		DDECDBAEDA1D5BC7DC2BA6B8DED98C9F /* NSMutableString+LGHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableString+LGHelper.m"; path = "LGHelper/LGHelper+NS/NSMutableString+LGHelper.m"; sourceTree = "<group>"; };
+		E21528E6E1950F051241FB0666397ABC /* UIScrollView+LGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+LGHelper.h"; path = "LGHelper/LGHelper+UI/UIScrollView+LGHelper.h"; sourceTree = "<group>"; };
+		E325B8C8AFBE83942B1381959DDFC873 /* Pods-empty-project-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-empty-project-dummy.m"; sourceTree = "<group>"; };
+		E526A6719A3F3EEA23D90F6C1463B2CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA288A9CD3D4898DDC695D428556A5BF /* NSDictionary+LGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+LGHelper.h"; path = "LGHelper/LGHelper+NS/NSDictionary+LGHelper.h"; sourceTree = "<group>"; };
+		EA9DBE964E7A52CE1547ED51A4F028D9 /* LGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGHelper.h; path = LGHelper/LGHelper.h; sourceTree = "<group>"; };
+		EED4B596530FF8BF048BD5D4E403EB2E /* LGHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGHelper.xcconfig; sourceTree = "<group>"; };
+		F32986B4E77FA6275400F52891C29144 /* NSArray+LGHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+LGHelper.h"; path = "LGHelper/LGHelper+NS/NSArray+LGHelper.h"; sourceTree = "<group>"; };
+		F3405C8788E0EA3676D4236D3A484162 /* DejalActivityView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DejalActivityView.framework; path = DejalActivityView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C879485469D14E77ADA37DD28369D2 /* Pods-empty-project-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-empty-project-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38D13F4A65F8D6B634AAF28B954F3FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC0644A4A39C0702C2FF1F3F8D7CF8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808CF8F68041D2C46AA68686CD7AC77B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83EB7D0A520A5829B3379D71AB7C9B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6275F54D9A9A8F9FC62AE7B5BAA0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95C00F0F7E79E159E5276EC8BC87E35 /* Foundation.framework in Frameworks */,
+				0B84C4476C1E79D3623894519437696D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4AFFDE12D47503DD0B21027544BA11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3405C8788E0EA3676D4236D3A484162 /* DejalActivityView.framework */,
+				4C17B500D8E631B223F073F66D3178E0 /* LGHelper.framework */,
+				887334FA5FCBCA6C32C1EA20C667FF78 /* Pods_empty_project.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		170C517E5B164A0AE99D4FF8877772C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98052153A35C8B1FEB52F25B7FECE05D /* DejalActivityView.modulemap */,
+				B7935B1EF3784D843B967626007A7179 /* DejalActivityView.xcconfig */,
+				97ABAA3879F2E5AB13FB55437C388366 /* DejalActivityView-dummy.m */,
+				CFF1865443DA0E2B0C85E2281F7ABA98 /* DejalActivityView-prefix.pch */,
+				92E3DAB65C36B3828A2CE419FEADDFDA /* DejalActivityView-umbrella.h */,
+				E526A6719A3F3EEA23D90F6C1463B2CE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DejalActivityView";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AEF913289BCE58837874E4205E4F23C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0EC84CAD37C7692D617788C456C8C2C /* Info.plist */,
+				219772CBFD41C8703A7C63CDC91721A6 /* LGHelper.modulemap */,
+				EED4B596530FF8BF048BD5D4E403EB2E /* LGHelper.xcconfig */,
+				64763EACBE968C68B2DB9EF40C20CB14 /* LGHelper-dummy.m */,
+				5788A555285976899023030F9493CC25 /* LGHelper-prefix.pch */,
+				30E6128D47DF3A9ECB0AEB1567747C05 /* LGHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LGHelper";
+			sourceTree = "<group>";
+		};
+		53DF7ABF639A3BDE48ACD47A6E44192A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93948EE5CC471F85C431DCE9C56A5E23 /* Pods-empty-project */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				DCC3C415539F42533034AE11E291B57C /* Pods */,
+				0F4AFFDE12D47503DD0B21027544BA11 /* Products */,
+				53DF7ABF639A3BDE48ACD47A6E44192A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93948EE5CC471F85C431DCE9C56A5E23 /* Pods-empty-project */ = {
+			isa = PBXGroup;
+			children = (
+				7B4ACBEB12018FBDAD9723894DBF5BE3 /* Info.plist */,
+				AC04B1063BD57AE1EDE6490A4F959E3E /* Pods-empty-project.modulemap */,
+				7156AF5C7CDBB09341E5E1815B2EAB50 /* Pods-empty-project-acknowledgements.markdown */,
+				F4C879485469D14E77ADA37DD28369D2 /* Pods-empty-project-acknowledgements.plist */,
+				E325B8C8AFBE83942B1381959DDFC873 /* Pods-empty-project-dummy.m */,
+				C0C9B57C650FE7796852FB028EDE4729 /* Pods-empty-project-frameworks.sh */,
+				9BFC885BCE6EAFDF9A97EED0047067A2 /* Pods-empty-project-resources.sh */,
+				24C6C9189A102DF18B84DBEB18BB5A75 /* Pods-empty-project-umbrella.h */,
+				276978B72C275887EB2F731D6211BF16 /* Pods-empty-project.debug.xcconfig */,
+				96C89E7ACB9DCEA9992CF35F859E2BB8 /* Pods-empty-project.release.xcconfig */,
+			);
+			name = "Pods-empty-project";
+			path = "Target Support Files/Pods-empty-project";
+			sourceTree = "<group>";
+		};
+		9B48C7F43C78E0AE56EFE5D52DFC0997 /* DejalActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				B50EFEB14B971BD771D43B5EBDB56A60 /* DejalActivityView.h */,
+				AB0D42D71BFC0B6433216C73E79EFDE5 /* DejalActivityView.m */,
+				170C517E5B164A0AE99D4FF8877772C4 /* Support Files */,
+			);
+			name = DejalActivityView;
+			path = DejalActivityView;
+			sourceTree = "<group>";
+		};
+		DCC3C415539F42533034AE11E291B57C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B48C7F43C78E0AE56EFE5D52DFC0997 /* DejalActivityView */,
+				EAFCA6D90947434834DD7F791171D6B4 /* LGHelper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EAFCA6D90947434834DD7F791171D6B4 /* LGHelper */ = {
+			isa = PBXGroup;
+			children = (
+				EA9DBE964E7A52CE1547ED51A4F028D9 /* LGHelper.h */,
+				02865C3DE3C133992C9D84062F5D8EC0 /* LGHelper.m */,
+				B78C47E7673BFDE4CBD09742EC0F375F /* LGHelper+NS.h */,
+				B8D65674BB642D1799E8DA6E1BB16A36 /* LGHelper+UI.h */,
+				F32986B4E77FA6275400F52891C29144 /* NSArray+LGHelper.h */,
+				729F27888360142C5A106485FEED42C5 /* NSArray+LGHelper.m */,
+				CDD90F4B48ABAF8AC59F952A5CBC9B8D /* NSData+LGHelper.h */,
+				70611D86C00666DFB173C0D2E896FA58 /* NSData+LGHelper.m */,
+				A691AB4439CB08CA904234E5B7A298D3 /* NSDate+LGHelper.h */,
+				0DF31F8C32FA182563D5E46EA1CB246A /* NSDate+LGHelper.m */,
+				EA288A9CD3D4898DDC695D428556A5BF /* NSDictionary+LGHelper.h */,
+				9EDBD598FA025211929BE395B26CC96D /* NSDictionary+LGHelper.m */,
+				36A41BE40E01A64538A09EAF5278875A /* NSMutableString+LGHelper.h */,
+				DDECDBAEDA1D5BC7DC2BA6B8DED98C9F /* NSMutableString+LGHelper.m */,
+				CE52D668FD7635E132AA62627E6DE7B1 /* NSString+LGHelper.h */,
+				17172459C6FD338EF5286AEB683DF594 /* NSString+LGHelper.m */,
+				7363E6AA1A2A49F0CB3B2A008174947E /* UIColor+LGHelper.h */,
+				66030610C1AE3CF7A231548D237A7DBD /* UIColor+LGHelper.m */,
+				9C03F7D54E21FDAEADB811536F24DF2F /* UIImage+LGHelper.h */,
+				D532AAFBF1C07146F114C3EACC04112D /* UIImage+LGHelper.m */,
+				54380247E562C57BCA10A7C6D4DE97D9 /* UILabel+LGHelper.h */,
+				694AE0CB37F0FBD7AA829D3DE77802C8 /* UILabel+LGHelper.m */,
+				E21528E6E1950F051241FB0666397ABC /* UIScrollView+LGHelper.h */,
+				0E0BA4FE7D76F7B22F1C5E201D8C4CE3 /* UIScrollView+LGHelper.m */,
+				41BD8E69B6CB3701652FC3F36F0BF83F /* UIView+LGHelper.h */,
+				B6E47F9F9B841F4624430CD4F9D9A7AA /* UIView+LGHelper.m */,
+				4AEF913289BCE58837874E4205E4F23C /* Support Files */,
+			);
+			name = LGHelper;
+			path = LGHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		341419615868C07CFB3A62723590CE3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCDB93822DAE8A6AAC216AAE45668AF /* LGHelper+NS.h in Headers */,
+				4C78CBA46AC9190F178EF390729CC073 /* LGHelper+UI.h in Headers */,
+				219DA8222A52FC3D31B6043DFAB38CFD /* LGHelper-umbrella.h in Headers */,
+				05D2853D5694E2081C7385BB94D32BE0 /* LGHelper.h in Headers */,
+				C15060834F32FD73B2F7FE2CDD9E0E23 /* NSArray+LGHelper.h in Headers */,
+				C1A0A7165DF8770DC4A00C67C6E3C2D3 /* NSData+LGHelper.h in Headers */,
+				598FD6D9AC9502B81E5AECD5BFEF771E /* NSDate+LGHelper.h in Headers */,
+				95043CDA1534A588E519D3708C6368A1 /* NSDictionary+LGHelper.h in Headers */,
+				58CF7136B3AB192A993A9C1D41C7E712 /* NSMutableString+LGHelper.h in Headers */,
+				E1108D8B7B7DB9F06115389F56044C50 /* NSString+LGHelper.h in Headers */,
+				1A8F66F8021F89070B960C41EFF237EB /* UIColor+LGHelper.h in Headers */,
+				09779AA94A149B2238C4706A9BB402E8 /* UIImage+LGHelper.h in Headers */,
+				28788F63240DF0FD2F7760BC2D62A98E /* UILabel+LGHelper.h in Headers */,
+				60C91150D97A789B9A30978149DBC647 /* UIScrollView+LGHelper.h in Headers */,
+				0FA80C9B676F894C60FC56921C4BE2C1 /* UIView+LGHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD43AE9F01E5DF08DA1C89EF29BBE9AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C217D8A748598105EC92EBF024ECEAE /* DejalActivityView-umbrella.h in Headers */,
+				3E056F64CEC57F0C7394F7E604B12C29 /* DejalActivityView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF0ECFD2618FA9345921518AE6D2F7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2CAEC00B9388B271EE9E44620B8B80 /* Pods-empty-project-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		471BCBFEC7A0E22C2C0FB058F37A89CD /* LGHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FA6944F7D147E8737391C7C666A59BC /* Build configuration list for PBXNativeTarget "LGHelper" */;
+			buildPhases = (
+				AB3F44522FB4D9954E8A455D3EBEEBCE /* Sources */,
+				38D13F4A65F8D6B634AAF28B954F3FEE /* Frameworks */,
+				341419615868C07CFB3A62723590CE3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGHelper;
+			productName = LGHelper;
+			productReference = 4C17B500D8E631B223F073F66D3178E0 /* LGHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FA99AE930DCF98A9DE5E7ABD4D7D0A2 /* DejalActivityView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE6B9AA36562DA30D776A3EBC2876F4 /* Build configuration list for PBXNativeTarget "DejalActivityView" */;
+			buildPhases = (
+				C0E1D6FA90DE14C88AB76C6B7E97AE05 /* Sources */,
+				9B6275F54D9A9A8F9FC62AE7B5BAA0BF /* Frameworks */,
+				DD43AE9F01E5DF08DA1C89EF29BBE9AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DejalActivityView;
+			productName = DejalActivityView;
+			productReference = F3405C8788E0EA3676D4236D3A484162 /* DejalActivityView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E724317932F0600A3B1058401DEE047 /* Pods-empty-project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8EEDC2F53A28AB2924387F0710F66EA /* Build configuration list for PBXNativeTarget "Pods-empty-project" */;
+			buildPhases = (
+				884A2883F774B47E08BC04F4F5BAAEAB /* Sources */,
+				808CF8F68041D2C46AA68686CD7AC77B /* Frameworks */,
+				DFF0ECFD2618FA9345921518AE6D2F7E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E5936B761DEE2DA96E9591923D77DFE /* PBXTargetDependency */,
+				03E0E9BDE6F2107A7976BC8CE9E0F718 /* PBXTargetDependency */,
+			);
+			name = "Pods-empty-project";
+			productName = "Pods-empty-project";
+			productReference = 887334FA5FCBCA6C32C1EA20C667FF78 /* Pods_empty_project.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0F4AFFDE12D47503DD0B21027544BA11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FA99AE930DCF98A9DE5E7ABD4D7D0A2 /* DejalActivityView */,
+				471BCBFEC7A0E22C2C0FB058F37A89CD /* LGHelper */,
+				8E724317932F0600A3B1058401DEE047 /* Pods-empty-project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		884A2883F774B47E08BC04F4F5BAAEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BCD4BA7C87B9BD9C150A0073F5416E /* Pods-empty-project-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3F44522FB4D9954E8A455D3EBEEBCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C243AD750968119A77DF949200CBE4 /* LGHelper-dummy.m in Sources */,
+				8E92B0768293793C6DB01A9FC82A97B8 /* LGHelper.m in Sources */,
+				F475EDD37D62E9279B1BDD9C8BF3E5D5 /* NSArray+LGHelper.m in Sources */,
+				91769CA707FE6E1A1939BF8F9FB9A027 /* NSData+LGHelper.m in Sources */,
+				ED1C0BE000508863039E4F115E08D257 /* NSDate+LGHelper.m in Sources */,
+				7E6D96B9F62D706097FE42D860789E18 /* NSDictionary+LGHelper.m in Sources */,
+				8C9A580F66D089780CFC00420075A443 /* NSMutableString+LGHelper.m in Sources */,
+				F99CB06B0DE4CB782FACA10B9C6D97EF /* NSString+LGHelper.m in Sources */,
+				60824AC6AD4535949EECE095CA2FF9FC /* UIColor+LGHelper.m in Sources */,
+				671EF24B054A744EF4E89D41B70D0B50 /* UIImage+LGHelper.m in Sources */,
+				67DA852FFB26B7731E7E0D746762A68D /* UILabel+LGHelper.m in Sources */,
+				2B10F50ABFBEDD9DAC3D74B02923C72D /* UIScrollView+LGHelper.m in Sources */,
+				910F666A4AE7845BEF40DB2E695CEE42 /* UIView+LGHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E1D6FA90DE14C88AB76C6B7E97AE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44C9DFBAD67AF46E28A3BDDE23E66D4 /* DejalActivityView-dummy.m in Sources */,
+				539A35F9FFED141A35A9FE355B0AA477 /* DejalActivityView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03E0E9BDE6F2107A7976BC8CE9E0F718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGHelper;
+			target = 471BCBFEC7A0E22C2C0FB058F37A89CD /* LGHelper */;
+			targetProxy = 20BE68788C0ABDABF1C69A1A7FE1B635 /* PBXContainerItemProxy */;
+		};
+		0E5936B761DEE2DA96E9591923D77DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DejalActivityView;
+			target = 4FA99AE930DCF98A9DE5E7ABD4D7D0A2 /* DejalActivityView */;
+			targetProxy = 6083A2C759ADF20360AF9CF35EAC15B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		33FCE92813988057F296C1D533E63DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276978B72C275887EB2F731D6211BF16 /* Pods-empty-project.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-empty-project/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-empty-project/Pods-empty-project.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_empty_project;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		458B8776B8DEF14F3BF5B8A4FC6CD11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED4B596530FF8BF048BD5D4E403EB2E /* LGHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGHelper/LGHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGHelper/LGHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LGHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B492F5B7B69B30CB3328A152267497C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EED4B596530FF8BF048BD5D4E403EB2E /* LGHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LGHelper/LGHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LGHelper/LGHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LGHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BBDCBB40B0A28FF768C339748FF13E69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7935B1EF3784D843B967626007A7179 /* DejalActivityView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DejalActivityView/DejalActivityView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DejalActivityView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DejalActivityView/DejalActivityView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DejalActivityView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D38C195ABEA8185FFE0CCBD76A97D96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C89E7ACB9DCEA9992CF35F859E2BB8 /* Pods-empty-project.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-empty-project/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-empty-project/Pods-empty-project.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_empty_project;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D72306CF60B7EEB983923FE1A491EDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7935B1EF3784D843B967626007A7179 /* DejalActivityView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DejalActivityView/DejalActivityView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DejalActivityView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DejalActivityView/DejalActivityView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DejalActivityView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE6B9AA36562DA30D776A3EBC2876F4 /* Build configuration list for PBXNativeTarget "DejalActivityView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72306CF60B7EEB983923FE1A491EDE2 /* Debug */,
+				BBDCBB40B0A28FF768C339748FF13E69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FA6944F7D147E8737391C7C666A59BC /* Build configuration list for PBXNativeTarget "LGHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				458B8776B8DEF14F3BF5B8A4FC6CD11B /* Debug */,
+				B492F5B7B69B30CB3328A152267497C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8EEDC2F53A28AB2924387F0710F66EA /* Build configuration list for PBXNativeTarget "Pods-empty-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33FCE92813988057F296C1D533E63DA6 /* Debug */,
+				D38C195ABEA8185FFE0CCBD76A97D96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

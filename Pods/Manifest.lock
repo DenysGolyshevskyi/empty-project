@@ -1,0 +1,29 @@
+PODS:
+  - DejalActivityView (1.2)
+  - LGHelper (1.1.2)
+
+DEPENDENCIES:
+  - DejalActivityView (from `https://github.com/Dejal/DejalActivityView.git`)
+  - LGHelper (from `https://github.com/Friend-LGA/LGHelper.git`)
+
+EXTERNAL SOURCES:
+  DejalActivityView:
+    :git: https://github.com/Dejal/DejalActivityView.git
+  LGHelper:
+    :git: https://github.com/Friend-LGA/LGHelper.git
+
+CHECKOUT OPTIONS:
+  DejalActivityView:
+    :commit: bd1bbaae4d3f1a864f65bbd2f269d6d4075a446e
+    :git: https://github.com/Dejal/DejalActivityView.git
+  LGHelper:
+    :commit: 5825c599d2f4e82da672f3740dcfae7392b1902f
+    :git: https://github.com/Friend-LGA/LGHelper.git
+
+SPEC CHECKSUMS:
+  DejalActivityView: 94d85757728a02cbb32445fcf6dfba17dc1e7393
+  LGHelper: e1976649226bb222c1dcb9a0452c654f095af525
+
+PODFILE CHECKSUM: e5c82be769c584d478cd8059b979b439b16d5413
+
+COCOAPODS: 1.1.1

@@ -10,10 +10,13 @@
 		36147DF21E320FB1008E091C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36147DF11E320FB1008E091C /* main.m */; };
 		36147DF51E320FB1008E091C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36147DF41E320FB1008E091C /* AppDelegate.m */; };
 		36147DF81E320FB1008E091C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36147DF71E320FB1008E091C /* ViewController.m */; };
-		36147DFB1E320FB1008E091C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36147DF91E320FB1008E091C /* Main.storyboard */; };
+		36147DFB1E320FB1008E091C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36147DF91E320FB1008E091C /* MainStoryboard_iPhone.storyboard */; };
 		36147DFE1E320FB1008E091C /* empty_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36147DFC1E320FB1008E091C /* empty_project.xcdatamodeld */; };
 		36147E001E320FB1008E091C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36147DFF1E320FB1008E091C /* Assets.xcassets */; };
 		36147E031E320FB1008E091C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36147E011E320FB1008E091C /* LaunchScreen.storyboard */; };
+		36B926171E324C5100FDDF59 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B926161E324C5100FDDF59 /* Singleton.m */; };
+		36B926191E324CE300FDDF59 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B926181E324CE300FDDF59 /* MainStoryboard_iPad.storyboard */; };
+		517BB8F42390CD2E0BD4319A /* Pods_empty_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6415B14AC189E5A94385567 /* Pods_empty_project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +26,19 @@
 		36147DF41E320FB1008E091C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "empty-project/AppDelegate.m"; sourceTree = "<group>"; };
 		36147DF61E320FB1008E091C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "empty-project/ViewController.h"; sourceTree = "<group>"; };
 		36147DF71E320FB1008E091C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "empty-project/ViewController.m"; sourceTree = "<group>"; };
-		36147DFA1E320FB1008E091C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36147DFA1E320FB1008E091C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		36147DFD1E320FB1008E091C /* empty_project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = empty_project.xcdatamodel; sourceTree = "<group>"; };
 		36147DFF1E320FB1008E091C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "empty-project/Assets.xcassets"; sourceTree = "<group>"; };
 		36147E021E320FB1008E091C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36147E041E320FB1008E091C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "empty-project/Info.plist"; sourceTree = "<group>"; };
 		36147E0F1E3210A4008E091C /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		36B926141E324B6B00FDDF59 /* GlobalConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConstants.h; sourceTree = "<group>"; };
+		36B926151E324C0D00FDDF59 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		36B926161E324C5100FDDF59 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		36B926181E324CE300FDDF59 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		52905F057148ACD12D2059D4 /* Pods-empty-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-empty-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-empty-project/Pods-empty-project.release.xcconfig"; sourceTree = "<group>"; };
+		C9A8B2B8F16CED6F39E9A2ED /* Pods-empty-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-empty-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-empty-project/Pods-empty-project.debug.xcconfig"; sourceTree = "<group>"; };
+		E6415B14AC189E5A94385567 /* Pods_empty_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_empty_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517BB8F42390CD2E0BD4319A /* Pods_empty_project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +95,8 @@
 		36147E0C1E32100F008E091C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				C9A8B2B8F16CED6F39E9A2ED /* Pods-empty-project.debug.xcconfig */,
+				52905F057148ACD12D2059D4 /* Pods-empty-project.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -91,6 +104,7 @@
 		36147E0D1E321016008E091C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E6415B14AC189E5A94385567 /* Pods_empty_project.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,8 +141,8 @@
 		36147E121E321108008E091C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				36147E161E32113B008E091C /* HomeScreen */,
-				36147E151E321133008E091C /* MainMenu */,
+				36147DF61E320FB1008E091C /* ViewController.h */,
+				36147DF71E320FB1008E091C /* ViewController.m */,
 				36147E141E32112D008E091C /* Event */,
 				36147E131E321126008E091C /* Map */,
 			);
@@ -149,27 +163,12 @@
 			name = Event;
 			sourceTree = "<group>";
 		};
-		36147E151E321133008E091C /* MainMenu */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = MainMenu;
-			sourceTree = "<group>";
-		};
-		36147E161E32113B008E091C /* HomeScreen */ = {
-			isa = PBXGroup;
-			children = (
-				36147DF61E320FB1008E091C /* ViewController.h */,
-				36147DF71E320FB1008E091C /* ViewController.m */,
-			);
-			name = HomeScreen;
-			sourceTree = "<group>";
-		};
 		36147E171E32117F008E091C /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				36147E011E320FB1008E091C /* LaunchScreen.storyboard */,
-				36147DF91E320FB1008E091C /* Main.storyboard */,
+				36147DF91E320FB1008E091C /* MainStoryboard_iPhone.storyboard */,
+				36B926181E324CE300FDDF59 /* MainStoryboard_iPad.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -230,6 +229,8 @@
 		36147E1F1E32124B008E091C /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				36B926151E324C0D00FDDF59 /* Singleton.h */,
+				36B926161E324C5100FDDF59 /* Singleton.m */,
 			);
 			name = Singleton;
 			sourceTree = "<group>";
@@ -244,6 +245,7 @@
 		36147E211E321261008E091C /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				36B926141E324B6B00FDDF59 /* GlobalConstants.h */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -291,9 +293,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36147E071E320FB1008E091C /* Build configuration list for PBXNativeTarget "empty-project" */;
 			buildPhases = (
+				2E3B25CB8FE6904EFC403A7A /* [CP] Check Pods Manifest.lock */,
 				36147DE91E320FB1008E091C /* Sources */,
 				36147DEA1E320FB1008E091C /* Frameworks */,
 				36147DEB1E320FB1008E091C /* Resources */,
+				FD2ED864B8272025618005EB /* [CP] Embed Pods Frameworks */,
+				0F8AFFE1D313C11E21E7DBF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,7 +317,7 @@
 			attributes = {
 				CLASSPREFIX = DG;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Denys Golyshevskyi";
+				ORGANIZATIONNAME = "Scaletools UA";
 				TargetAttributes = {
 					36147DEC1E320FB1008E091C = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -343,13 +348,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B926191E324CE300FDDF59 /* MainStoryboard_iPad.storyboard in Resources */,
 				36147E031E320FB1008E091C /* LaunchScreen.storyboard in Resources */,
 				36147E001E320FB1008E091C /* Assets.xcassets in Resources */,
-				36147DFB1E320FB1008E091C /* Main.storyboard in Resources */,
+				36147DFB1E320FB1008E091C /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F8AFFE1D313C11E21E7DBF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-empty-project/Pods-empty-project-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E3B25CB8FE6904EFC403A7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2ED864B8272025618005EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-empty-project/Pods-empty-project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		36147DE91E320FB1008E091C /* Sources */ = {
@@ -360,18 +414,19 @@
 				36147DF51E320FB1008E091C /* AppDelegate.m in Sources */,
 				36147DF21E320FB1008E091C /* main.m in Sources */,
 				36147DFE1E320FB1008E091C /* empty_project.xcdatamodeld in Sources */,
+				36B926171E324C5100FDDF59 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		36147DF91E320FB1008E091C /* Main.storyboard */ = {
+		36147DF91E320FB1008E091C /* MainStoryboard_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				36147DFA1E320FB1008E091C /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainStoryboard_iPhone.storyboard;
 			path = "empty-project";
 			sourceTree = "<group>";
 		};
@@ -479,6 +534,7 @@
 		};
 		36147E081E320FB1008E091C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9A8B2B8F16CED6F39E9A2ED /* Pods-empty-project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "empty-project/Info.plist";
@@ -490,6 +546,7 @@
 		};
 		36147E091E320FB1008E091C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52905F057148ACD12D2059D4 /* Pods-empty-project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "empty-project/Info.plist";
@@ -518,6 +575,7 @@
 				36147E091E320FB1008E091C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
